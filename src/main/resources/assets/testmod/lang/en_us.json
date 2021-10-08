@@ -1,3 +1,5 @@
 {
-  "item.testmod.coconut": "Coconut"
+  "item.testmod.coconut": "Coconut",
+
+  "ItemGroup.testModTab": "Test Mod"
 }
