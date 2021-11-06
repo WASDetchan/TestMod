@@ -1,5 +1,6 @@
 package com.wasdetchan.testmod;
 
+import com.wasdetchan.testmod.block.ModBlocks;
 import com.wasdetchan.testmod.item.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -34,6 +35,7 @@ public class TestMod
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
 
         eventBus.addListener(this::setup);
         // Register the enqueueIMC method for modloading

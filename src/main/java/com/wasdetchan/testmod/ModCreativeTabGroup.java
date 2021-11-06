@@ -1,10 +1,10 @@
-package com.wasdetchan.testmod.item;
+package com.wasdetchan.testmod;
 
-import net.minecraft.item.Item;
+import com.wasdetchan.testmod.item.ModItems;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 
-public class ModItemGroup {
+public class ModCreativeTabGroup {
     public static final ItemGroup TEST_GROUP = new ItemGroup("testModTab") {
         @Override
         public ItemStack createIcon() {

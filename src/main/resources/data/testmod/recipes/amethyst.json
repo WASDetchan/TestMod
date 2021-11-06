@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#x#",
+    " # "
+  ],
+  "key": {
+    "x": {
+      "item": "testmod:amethyst"
+    },
+    "#": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "testmod:amethyst",
+    "count": 6
+  }
+}

@@ -1,6 +1,16 @@
 {
   "item.testmod.coconut": "Coconut",
   "item.testmod.amethyst": "Amethyst",
+  "item.testmod.sander": "Sander",
 
-  "ItemGroup.testModTab": "Test Mod"
+  "block.testmod.amethyst_ore": "Amethyst ore",
+  "block.testmod.amethyst_block": "Amethyst block",
+  "block.testmod.spike_block": "Spikes",
+
+  "tooltip.testmod.sander_shift": "Polishes blocks",
+  "tooltip.testmod.press_shift": "Hold §e§nShift§r for more information",
+
+  "adf": " (block may be added in config)",
+
+  "itemGroup.testModTab": "Test Mod"
 }

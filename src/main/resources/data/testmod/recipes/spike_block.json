@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#*#",
+    "*^*"
+  ],
+  "key": {
+    "#": {
+      "item": "testmod:amethyst"
+    },
+    "^": {
+      "item": "minecraft:redstone"
+    },
+    "*": {
+      "item": "minecraft:iron"
+    }
+  },
+  "result": {
+    "item": "testmod:spike_block",
+    "count": 3
+  }
+}
